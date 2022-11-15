@@ -12,6 +12,7 @@ module.exports = {
       'important': '#F79C41',
       'white': '#ffffff',
       'dark': '#000000',
+      'success': '#2D7D46',
       'purple': '#3f3cbb',
       'midnight': '#121063',
       'metal': '#565584',

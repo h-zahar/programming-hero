@@ -17,7 +17,7 @@ body {
 
 .bg-image {
     background: url('../assets/images/background.png');
-    background-size: cover;
+    background-size: contain;
     height: 100%;
 }
 
@@ -43,6 +43,28 @@ body {
 
 .bg-gradient-6 {
     background: linear-gradient(180deg, #E63D84 0%, #650D84 100%);
+}
+
+.bg-gradient-7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(67.45% 67.45% at 50% 32.55%, #4A92FF 0%, #2E1674 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.bg-gradient-8 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(72.4% 72.4% at 50% 27.6%, #6DB8F5 0%, #0B4B70 99.99%);
+}
+
+.bg-gradient-9 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(145.79% 145.79% at 68.19% -3.09%, #FF8787 0%, #71129B 43.02%, #64079D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.bg-gradient-10 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(68.56% 68.56% at 50% 27.48%, #FF7482 0%, #A80D15 47.71%, #860B0B 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.bg-gradient-11 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(74.38% 74.38% at 52.92% 27.72%, #FFC044 0%, #C07A28 51.87%, #705A0F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.bg-gradient-12 {
+    background: radial-gradient(77.93% 1101.68% at 84.62% 50%, #CE47B8 0%, #D08731 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
 .img-transform {
@@ -101,4 +123,22 @@ body {
     mix-blend-mode: overlay;
     /* z-index: 9999; */
     /* background: linear-gradient(148.48deg, #FFCC3E -11.85%, #F79C41 81%); */
+}
+
+.bg-snacky {
+    background: url('../assets/images/focused-bg-snacky.png');
+    background-size: cover;
+}
+
+.bg-card-snacky {
+    /* mix-blend-mode: overlay; */
+    background: url('../assets/images/bg-card-snacky.png');
+    background-size: cover;
+}
+
+.image-rocket {
+    position: relative; 
+    top: 100%;
+    left: 0; 
+    /* transform: translateY(-182px); */
 }
