@@ -16,7 +16,7 @@ body {
 }
 
 .bg-image {
-    background: url('/src/assets/images/background.png');
+    background: url('../assets/images/background.png');
     background-size: cover;
     height: 100%;
 }
@@ -43,7 +43,7 @@ body {
     left: 100%;
     top: 161px;
     transform: translateX(-43px);
-    background: url('/src/assets/images/half-uranus.png');
+    background: url('../assets/images/half-uranus.png');
     background-size: cover;
 }
 
