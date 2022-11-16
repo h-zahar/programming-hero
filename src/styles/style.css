@@ -67,6 +67,10 @@ body {
     background: radial-gradient(77.93% 1101.68% at 84.62% 50%, #CE47B8 0%, #D08731 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
+.bg-gradient-13 {
+    background: radial-gradient(99.91% 986.38% at 104.48% -5.01%, #C51393 0%, #8301F6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
 .img-transform {
     transform: scale(1.2) translateX(-50px);
 }
@@ -133,6 +137,11 @@ body {
 .bg-card-snacky {
     /* mix-blend-mode: overlay; */
     background: url('../assets/images/bg-card-snacky.png');
+    background-size: cover;
+}
+
+.bg-review {
+    background: url('../assets/images/review-bg.png');
     background-size: cover;
 }
 
