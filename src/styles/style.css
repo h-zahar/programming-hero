@@ -97,7 +97,7 @@ body {
     height: 407px;
     left: -82px;
     /* top: -127px; */
-    background: rgba(51, 102, 255, 0.8);
+    background: rgba(51, 102, 255, 0.6);
     opacity: 0.5;
     filter: blur(144.5px);
     z-index: -1;
@@ -142,7 +142,7 @@ body {
     /* top: 7.02%;
     bottom: 86.84%; */
 
-    background: rgba(255, 88, 50, 0.4);
+    background: rgba(255, 88, 50, 0.5);
     opacity: 0.5;
     filter: blur(147.771px);
     z-index: -1;
