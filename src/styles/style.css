@@ -71,6 +71,10 @@ body {
     background: radial-gradient(99.91% 986.38% at 104.48% -5.01%, #C51393 0%, #8301F6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
+.bg-gradient-14 {
+    background: radial-gradient(82.99% 199.53% at 108.66% 25.41%, #492E99 0.01%, #460D73 100%, #340B55 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
 .img-transform {
     transform: scale(1.2) translateX(-50px);
 }
@@ -84,6 +88,7 @@ body {
     background: rgba(51, 102, 255, 0.8);
     opacity: 0.5;
     filter: blur(144.5px);
+    z-index: -1;
 }
 
 .bg-icon-1 {
@@ -150,4 +155,8 @@ body {
     top: 100%;
     left: 0; 
     /* transform: translateY(-182px); */
+}
+
+.nav-active {
+    display: none;
 }

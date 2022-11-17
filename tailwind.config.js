@@ -10,6 +10,7 @@ module.exports = {
       'secondary': '#94A3B8',
       'classic': '#F8FAFC',
       'important': '#F79C41',
+      'dark-blue': '#282E62',
       'white': '#ffffff',
       'dark': '#000000',
       'success': '#2D7D46',
