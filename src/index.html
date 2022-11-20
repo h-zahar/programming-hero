@@ -65,10 +65,10 @@
 
     <!-- <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-auto mt-20"> -->
       <div class="">
-      <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="flex mt-36 mx-3 md:mx-40">
-          <div>
-          <div class="text-4xl md:text-7xl font-bold uppercase text-brand mb-8">
+      <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div class="flex mt-16 bmd:mt-36 ml-8 mr-8 md:ml-40 md:mr-0">
+          <div style="width: 100%">
+          <div style="width: 100%;" class="text-3xl sm:text-4xl md:text-7xl font-bold uppercase text-brand mb-8">
             <h1>Programming</h1>
             <h1 class="mt-6 text-fun">Just Got Fun</h1>
           </div>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="flex justify-center">
-          <div class="mr-8">
+          <div class="mr-0">
             <img class="" src="./assets/images/header-frame.png" />
           </div>
         </div>
@@ -188,14 +188,14 @@
     </div>
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-10">
-      <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/images/bg-codeground.png'); background-size: cover;" class="grid md:grid-cols-2 grid-cols-1 rounded-lg">
+      <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/images/bg-codeground.png'); background-size: cover;" class="grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
         <diV>
           <div>
             <img class="md:p-16 p-0 pb-0 md:pb-0" src="./assets/images/code-ground.png" />
           </div>
         </diV>
 
-        <div class="flex items-center md:mt-0 md:mb-0 mt-16 mb-5 ml-5 md:mr-28 mr-5">
+        <div class="flex items-center md:justify-start justify-center lg:mt-0 lg:mb-0 mt-16 md:mb-10 mb-5 md:ml-8 md:mr-8 ml-5 mr-5 lg:mr-28">
           <div>
           <h2 class="text-3xl font-bold text-brand text-classic uppercase mb-5">Code Playground</h2>
           <div class="text-base font-normal">
@@ -224,9 +224,10 @@
       </div>
       
       <div class="my-16">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10">
+        <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10">
 
-          <div class="flex justify-center text-center bg-gradient-7 rounded-lg">
+          <div class="flex justify-center text-center">
+          <div style="max-width: 350px;" class="bg-gradient-7 rounded-lg">
             <div class="p-10 bg-card-snacky">
               <div class="flex justify-center bg-card-snacky">
                 <img src="./assets/icons/chat-icon.svg" />
@@ -235,8 +236,10 @@
               <p class="text-base font-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
             </div>
           </div>
+          </div>
 
-          <div class="flex justify-center text-center bg-gradient-8 rounded-lg">
+          <div class="flex justify-center text-center">
+          <div style="max-width: 350px;" class="bg-gradient-8 rounded-lg">
             <div class="p-10 bg-card-snacky">
               <div class="flex justify-center bg-card-snacky">
                 <img src="./assets/icons/content-icon.svg" />
@@ -246,8 +249,10 @@
               <p class="text-base font-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
             </div>
           </div>
+          </div>
 
-          <div class="flex justify-center text-center bg-gradient-9 rounded-lg">
+          <div class="flex justify-center text-center">
+          <div style="max-width: 350px;" class="bg-gradient-9 rounded-lg">
             <div class="p-10 bg-card-snacky">
               <div class="flex justify-center bg-card-snacky">
                 <img src="./assets/icons/vip-icon.svg" />
@@ -257,9 +262,10 @@
             </div>
           </div>
         </div>
+        </div>
 
         <div class="flex justify-center flex-wrap mt-10">
-          <div class="md:mx-5 mx-2 md:mb-0 mb-10 bg-gradient-10 rounded-lg">
+          <div style="max-width: 350px;" class="md:mx-5 mx-2 md:mb-0 mb-10 bg-gradient-10 rounded-lg">
             <div class="text-center bg-card-snacky p-10">
               <div class="flex justify-center bg-card-snacky">
                 <img src="./assets/icons/certificate-icon.svg" />
@@ -269,8 +275,8 @@
             </div>
           </div>
 
-          <div class="md:mx-5 mx-2 bg-gradient-11 rounded-lg">
-            <div class="text-center bg-card-snacky p-10">
+          <div class="md:mx-5 mx-2 lg:mt-0 md:mt-10 bg-gradient-11 rounded-lg">
+            <div style="max-width: 350px;" class="text-center bg-card-snacky p-10">
               <div class="flex justify-center bg-card-snacky">
                 <img src="./assets/icons/ad-block.svg" />
               </div>
@@ -288,20 +294,22 @@
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-28 mb-10">
       <div class="bg-gradient-12 rounded-lg">
-        <div class="bg-snacky flex items-center flex-wrap">
-          <div>
+        <div class="bg-snacky flex items-center">
+          <div class="hidden md:inline-block">
           <div class="image-rocket">
             <img class="mt-16" src="./assets/images/rocket.png" />
           </div>
           </div>
-          <div class="md:mx-10 mx-4 md:mt-0 mt-4 md:mb-0 mb-8">
-            <h2 class="text-3xl font-bold uppercase">Get Premium Access</h2>
+          <div class="flex lg:flex-row flex-col md:flex-col lg:items-center">
+          <div class="md:mx-10 mx-6 md:mt-0 mt-4 md:mb-0 mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold uppercase md:pt-8 pt-4 pb-4 lg:pt-0">Get Premium Access</h2>
             <p style="max-width: 50ch">Enjoy a personalized, fun, and interactive learning
               process while becoming a Programming Hero</p>
           </div>
-          <div class="mx-auto md:mb-0 mb-8">
+          <div class="md:mx-10 mx-6 lg:mt-0 md:mt-4 lg:mb-0 md:mb-8 mb-8">
             <button class="bg-green px-10 py-3 bg-success rounded">Upgrade Now</button>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -315,18 +323,18 @@
       </div>
 
       <div class="my-20">
-        <div class="bg-gradient-14 grid md:grid-cols-2 grid-cols-1 rounded-lg">
+        <div class="bg-gradient-14 grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
           <div class="my-auto">
-            <h2 class="md:pt-0 pt-12 pb-12 md:px-12 px-5 text-brand text-3xl font-bold uppercase">Ultimate guideline to become a <span class="text-important">pro developer</span></h2>
+            <h2 class="lg:pt-0 md:pt-16 pt-12 pb-12 md:px-12 px-5 text-brand text-3xl font-bold uppercase">Ultimate guideline to become a <span class="text-important">pro developer</span></h2>
             <p class="text-base font-normal md:px-12 px-5">After learning each programming concept, you will add an element to your game while learning. We trashed all the hard, boring tutorials out there.</p>
             <div class="my-8 md:px-12 px-5">
               <button class="bg-primary px-4 py-2 rounded">Explore App</button>
             </div>
           </div>
 
-          <div class="flex">
-            <img class="md:translate-x-8 md:-translate-y-14 -translate-y-0" src="./assets/images/app-interface.png" />
-            <img style="position: absolute;" class="-translate-x-5 md:translate-x-0 md:translate-y-0 translate-y-24" src="./assets/images/play-video.png" />
+          <div class="flex lg:justify-start md:justify-center md:mt mt-5">
+            <img class="lg:translate-x-8 lg:-translate-y-14 md:translate-y-14 translate-y-0" src="./assets/images/app-interface.png" />
+            <img style="position: absolute;" class="md:-translate-x-5 lg:translate-x-0 lg:translate-y-0 md:translate-y-24 -translate-x-5 translate-y-24" src="./assets/images/play-video.png" />
           </div>
         </div>
       </div>
@@ -350,14 +358,14 @@
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-52">
       <div class="bg-gradient-13">
-        <img style="position: absolute; left: 67%; transform: translateY(-150px);" class="hidden md:inline-block" src="./assets/images/course-interface.png" />
+        <img style="position: absolute; left: 67%; transform: translateY(-150px);" class="hidden md:hidden lg:inline-block" src="./assets/images/course-interface.png" />
         <div class="md:p-20 p-10">
           <h2 class="text-3xl text-brand font-bold uppercase text-classic">Download the App Now</h2>
           <p style="max-width: 50ch" class="text-base font-normal mt-5 mb-4">Enjoy personalized, fun, and interactive learning process while becoming a Programming Hero.</p>
           <div class="mt-8 flex flex-wrap">
             <button class="shadow-sm shadow-primary bg-primary rounded-md pl-4 pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
             </button>
-            <button class="bg-classic rounded-md pl-4 pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
+            <button class="bg-classic rounded-md pl-4 pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-2" src="./assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
           </div>
         </div>
       </div>

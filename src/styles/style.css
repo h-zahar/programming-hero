@@ -234,9 +234,9 @@ body {
 
 .image-rocket {
     position: relative; 
-    top: 100%;
+    bottom: 0;
     left: 0; 
-    /* transform: translateY(-182px); */
+    /* transform: translateY(5%); */
 }
 
 .nav-active {
