@@ -26,6 +26,33 @@ body {
     max-width: 750px;
     right: 0;
 }
+
+.bg-lower {
+    position: absolute;
+    width: 463px;
+    height: 100%;
+    /* height: 95px; */
+    left: 100%;
+    /* top: 161px; */
+    transform: translateX(-473px);
+    background: url('../assets/images/lower-bg.png');
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-reverse-lower {
+    position: absolute;
+    width: 323px;
+    height: 600px;
+    /* height: 95px; */
+    left: 0;
+    /* top: 161px; */
+    /* transform: translateX(-473px); */
+    background: url('../assets/images/reversed-lower-bg.png');
+    background-size: contain;
+    z-index: -1;
+}
+
 @media screen and (max-width: 1400px) {
     .img-size-fix {
         position: absolute;

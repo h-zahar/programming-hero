@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../dist/output.css" rel="stylesheet">
   <link href="./styles/style.css" rel="stylesheet">
+  <link href="./locomotive-scroll.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
@@ -77,9 +78,9 @@
             <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, dolorem eniam aspernatur atque ipsum sit error praesentium voluptas assumenda.</p>
           </div>
           <div class="mt-8 flex flex-wrap">
-            <button class="shadow-sm shadow-primary bg-primary rounded-md pl-4 pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
+            <button class="shadow-sm shadow-primary bg-primary md:rounded-md rounded-2xl pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-0 md:mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
             </button>
-            <button class="bg-classic rounded-md pl-4 pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
+            <button class="bg-classic rounded-2xl md:rounded-md pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-0 md:mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
           </div>
 
           <div class="grid grid-cols-3 mt-8">
@@ -174,6 +175,20 @@
 
         <div class="flex items-center">
           <div>
+            <div class="flex bg-lower">
+            <div class="">
+              <div style="height: 100%;" class="ml-14 flex items-center">
+                <div class="">
+                  <img src="./assets/icons/space-person.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="mt-8 ml-72 md:ml-52">
+              <div>
+                <img src="./assets/icons/planet.svg" />
+              </div>
+            </div>
+            </div>
           <div class="text-3xl text-brand font-bold uppercase mb-8">
             <h2 class="mb-2">Best App to <span class="text-important"> Learn</span></h2>
             <h2><span class="text-important">Programming Language</span></h2>
@@ -205,9 +220,9 @@
           </div>
 
           <div class="mt-10 flex flex-wrap">
-            <button class="shadow-sm shadow-primary bg-primary rounded-md pl-4 pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
+            <button class="shadow-sm shadow-primary bg-primary md:rounded-md rounded-2xl pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-0 md:mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
             </button>
-            <button class="bg-classic rounded-md pl-4 pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
+            <button class="bg-classic rounded-2xl md:rounded-md pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-0 md:mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
           </div>
           </div>
           
@@ -263,6 +278,14 @@
           </div>
         </div>
         </div>
+
+        <div class="flex bg-reverse-lower">
+          <div>
+            <div>
+              <img class="mt-8 hidden md:inline-block md:ml-48" src="./assets/icons/planet.svg" />
+            </div>
+          </div>
+          </div>
 
         <div class="flex justify-center flex-wrap mt-10">
           <div style="max-width: 350px;" class="md:mx-5 mx-2 md:mb-0 mb-10 bg-gradient-10 rounded-lg">
@@ -363,9 +386,9 @@
           <h2 class="text-3xl text-brand font-bold uppercase text-classic">Download the App Now</h2>
           <p style="max-width: 50ch" class="text-base font-normal mt-5 mb-4">Enjoy personalized, fun, and interactive learning process while becoming a Programming Hero.</p>
           <div class="mt-8 flex flex-wrap">
-            <button class="shadow-sm shadow-primary bg-primary rounded-md pl-4 pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
+            <button class="shadow-sm shadow-primary bg-primary md:rounded-md rounded-2xl pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center font-semibold uppercase mr-3"><img class="mr-0 md:mr-2" src="./assets/icons/play-store.svg" /> <span class="hidden md:inline-block">Download App</span>
             </button>
-            <button class="bg-classic rounded-md pl-4 pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-2" src="./assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
+            <button class="bg-classic rounded-2xl md:rounded-md pl-4 md:pl-4 pr-4 md:pr-8 py-3 flex items-center text-dark font-semibold uppercase"><img class="mr-0 md:mr-2" src=".//assets/icons/apple-store.svg" /> <span class="hidden md:inline-block">Download App</span></button>
           </div>
         </div>
       </div>
@@ -556,6 +579,7 @@
   </div>
 
   </div>
+
   <script src="./script.js"></script>
 </body>
 </html>
