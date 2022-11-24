@@ -362,5 +362,3 @@ body {
     transform: translateY(0px);
     transition: all 2s;
 }
-
-@import "../locomotive-scroll.css";
