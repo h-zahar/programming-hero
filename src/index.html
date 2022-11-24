@@ -12,12 +12,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="bg-brand text-white">
-  <div class="bg-image">
-    <div class="filter-1"></div>
-    <div class="bg-vector-left"><img src="./assets/images/vector-left.png" /></div>
-    <div class="bg-vector-right"><img src="./assets/images/vector-right.png" /></div>
-    <div class="bg-icon-1"></div>
-    <div class="bg-icon-1"></div>
+  <div class="filter-1"></div>
+  <div class="bg-vector-left"><img src="./assets/images/vector-left.png" /></div>
+  <div class="bg-vector-right"><img src="./assets/images/vector-right.png" /></div>
+  <div class="bg-icon-1"></div>
+  <div class="bg-icon-1"></div>
+  <div data-scroll-container class="bg-image">
 
     <div class="xl:mx-40 md:mx-24 sm:mx-16 mx-5 mt-12">
       <nav class="flex justify-between items-center">
@@ -65,7 +65,7 @@
     </div>
 
     <!-- <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-auto mt-20"> -->
-      <div class="">
+      <div data-scroll data-scroll-class="after-class" class="prev-class">
       <div class="main-container flex lg:flex-row md:flex-col sm:flex-col flex-col">
         <div class="flex mt-16 md:mt-36 md:mx-auto lg:mx-0">
           <div style="width: 100%">
@@ -115,7 +115,7 @@
     <div class="filter-4"></div>
     <div class="bg-icon-3"><img src="./assets/icons/small-meteor.svg" /></div>
 
-    <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-20 mb-10">
+    <div data-scroll data-scroll-speed="1" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-20 mb-10">
       <div class="grid md:grid-cols-2 grid-cols-1 gap-x-10 md:gap-y-0 gap-y-5">
         <div class="grid md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-5 md:gap-y-0">
           <div>
@@ -202,7 +202,7 @@
       <div class="filter-3"></div>
     </div>
 
-    <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-10">
+    <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-10">
       <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/images/bg-codeground.png'); background-size: cover;" class="grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
         <diV>
           <div>
@@ -239,7 +239,7 @@
       </div>
       
       <div class="my-16">
-        <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10">
+        <div id="opacity-base" data-scroll data-scroll-id="opacity-based" class="prev-class grid md:grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10">
 
           <div class="flex justify-center text-center">
           <div style="max-width: 350px;" class="bg-gradient-7 rounded-lg">
@@ -287,7 +287,7 @@
           </div>
           </div>
 
-        <div class="flex justify-center flex-wrap mt-10">
+        <div id="opacity-base-2" data-scroll data-scroll-id="opacity-based-2" class="prev-class flex justify-center flex-wrap mt-10">
           <div style="max-width: 350px;" class="md:mx-5 mx-2 md:mb-0 mb-10 bg-gradient-10 rounded-lg">
             <div class="text-center bg-card-snacky p-10">
               <div class="flex justify-center bg-card-snacky">
@@ -316,7 +316,7 @@
     
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-28 mb-10">
-      <div class="bg-gradient-12 rounded-lg">
+      <div data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal" class="bg-gradient-12 rounded-lg">
         <div class="bg-snacky flex items-center">
           <div class="hidden md:inline-block">
           <div class="image-rocket">
@@ -346,7 +346,7 @@
       </div>
 
       <div class="my-20">
-        <div class="bg-gradient-14 grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
+        <div data-scroll data-scroll-speed="1" class="bg-gradient-14 grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
           <div class="my-auto">
             <h2 class="lg:pt-0 md:pt-16 pt-12 pb-12 md:px-12 px-5 text-brand text-3xl font-bold uppercase">Ultimate guideline to become a <span class="text-important">pro developer</span></h2>
             <p class="text-base font-normal md:px-12 px-5">After learning each programming concept, you will add an element to your game while learning. We trashed all the hard, boring tutorials out there.</p>
@@ -366,7 +366,7 @@
     </div>
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-28 mb-10">
-      <div>
+      <div data-scroll data-scroll-class="after-class" class="prev-class">
         <div class="text-center">
           <h2 class="text-3xl font-bold text-brand uppercase">Earned Badges</h2>
           <p class="text-base text-secondary font-normal lg:mx-80 md:mx-24 pt-4 mx-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam.</p>
@@ -380,7 +380,7 @@
     </div>
 
     <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-52">
-      <div class="bg-gradient-13">
+      <div data-scroll data-scroll-speed="1" class="bg-gradient-13">
         <img style="position: absolute; left: 67%; transform: translateY(-150px);" class="hidden md:hidden lg:inline-block" src="./assets/images/course-interface.png" />
         <div class="md:p-20 p-10">
           <h2 class="text-3xl text-brand font-bold uppercase text-classic">Download the App Now</h2>
@@ -396,7 +396,7 @@
 
     <div class="filter-5"></div>
 
-    <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-52">
+    <div data-scroll data-scroll-speed="2" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-52">
       <h2 class="text-3xl text-brand font-bold uppercase mb-14 text-center">Our Students Say About the App</h2>
       <div class="grid md:grid-cols-2 grid-cols-1">
 
@@ -451,7 +451,7 @@
   </div>
 
   <div style="border-top: 1px solid #282E62" class="border-dark-blue h-px"></div>
-  <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-16 mb-10">
+  <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-16 pb-16">
     <footer class="flex flex-col justify-center">
       <div class="grid md:grid-cols-3 grid-cols-1">
         <div class="flex flex-col items-center  md:items-start font-english">
@@ -559,7 +559,7 @@
       
       </div>
 
-      <div class="md:mt-10 mt-0">
+      <div class="md:mt-4 mt-0">
         <div class="container flex justify-center px-5 py-2 mx-auto">
           <p class="text-sm text-center sm:text-left">
             Copyright © <span id="curr-year"></span>
@@ -581,5 +581,30 @@
   </div>
 
   <script src="./script.js"></script>
+  <script src="./locomotive-scroll.min.js"></script>
+  <script>
+    const scroll = document.querySelector("[data-scroll-container]") ? new LocomotiveScroll({
+      el: document.querySelector("[data-scroll-container]"),
+      smooth: true
+    }) : null;
+
+    scroll.on('scroll', (args) => {
+    // Get all current elements : args.currentElements
+    if(typeof args.currentElements['opacity-based'] === 'object') {
+        document.getElementById("opacity-base").classList.add("after-class");
+    } else if (typeof args.currentElements['opacity-based'] !== 'object') {
+      if (document.getElementById("opacity-base").classList.contains("after-class")) {
+      document.getElementById("opacity-base").classList.remove("after-class");
+      }
+    }
+    if (typeof args.currentElements['opacity-based-2'] === 'object') {
+      document.getElementById("opacity-base-2").classList.add("after-class");
+    } else if (typeof args.currentElements['opacity-based-2'] !== 'object') {
+      if (document.getElementById("opacity-base-2").classList.contains("after-class")) {
+      document.getElementById("opacity-base-2").classList.remove("after-class");
+      }
+    }
+});
+  </script>
 </body>
 </html>
