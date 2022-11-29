@@ -6,6 +6,10 @@
   <link href="../dist/output.css" rel="stylesheet">
   <link href="./styles/style.css" rel="stylesheet">
   <link href="./locomotive-scroll.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
@@ -202,6 +206,29 @@
       </div>
       <div class="filter-3"></div>
     </div>
+
+
+  <div class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-10">
+  <div data-scroll data-scroll-speed="0.5">
+    <h2 class="text-3xl text-brand font-bold uppercase text-center mb-7">Explore Our Courses</h2>
+    <p class="text-secondary text-base font-normal lg:mx-80 md:mx-24 pt-4 mx-5 text-center mb-10">Have access to our courses to solve your coding-related issues. We are always there to assist your learning process.</p>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide rounded-lg"><img style="height: 250px;" src="./assets/images/course-1.png" /></div>
+      <div class="swiper-slide rounded-lg"><img style="height: 250px;" src="./assets/images/course-1.png" /></div>
+      <div class="swiper-slide rounded-lg"><img style="height: 250px;" src="./assets/images/course-1.png" /></div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-scrollbar"></div>
+  </div>
+  </div>
+  </div>
 
     <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-36 mb-10">
       <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/images/bg-codeground.png'); background-size: cover;" class="grid lg:grid-cols-2 md:grid-cols-1 rounded-lg">
@@ -612,6 +639,41 @@
       }
     }
 });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper(".swiper", {
+      autoplay: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      slideActiveClass: 'swiper-modified',
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+    });
   </script>
 </body>
 </html>

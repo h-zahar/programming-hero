@@ -115,17 +115,32 @@ body {
         max-width: 576px;
         margin: 0 auto;
     }
+    .swiper-modified img {
+        height: 200px !important;
+        /* width: auto;
+        margin-left: -30px; */
+    }
 }
 @media screen and (max-width: 668px) {
     .main-container {
         max-width: 476px;
         margin: 0 auto;
     }
+    .swiper-modified img {
+        height: 200px !important;
+        /* width: auto;
+        margin-left: -30px; */
+    }
 }
 @media screen and (max-width: 576px) {
     .main-container {
         max-width: 90%;
         margin: 0 auto;
+    }
+    .swiper-modified img {
+        height: 200px !important;
+        /* width: auto;
+        margin-left: -30px; */
     }
 }
 
@@ -361,4 +376,10 @@ body {
     opacity: 1;
     transform: translateY(0px);
     transition: all 2s;
+}
+
+.swiper-modified img {
+    height: 300px !important;
+    /* width: auto;
+    margin-left: -30px; */
 }
