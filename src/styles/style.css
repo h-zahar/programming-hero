@@ -53,6 +53,32 @@ body {
     z-index: -1;
 }
 
+.bg-foo {
+    position: absolute;
+    width: 75px;
+    height: 66px;
+    /* height: 95px; */
+    left: 100%;
+    top: 100%;
+    transform: translate(-205px, -105px);
+    background: url('../assets/images/green-planet.png');
+    background-size: contain;
+    z-index: -1;
+}
+
+.bg-foo-2 {
+    position: absolute;
+    width: 145px;
+    height: 56px;
+    /* height: 95px; */
+    left: 100%;
+    top: 100%;
+    transform: translate(-205px, -158px);
+    background: url('../assets/icons/small-meteor.svg');
+    background-size: contain;
+    z-index: -1;
+}
+
 @media screen and (max-width: 1400px) {
     .img-size-fix {
         position: absolute;
@@ -115,33 +141,27 @@ body {
         max-width: 576px;
         margin: 0 auto;
     }
-    .swiper-modified img {
+    /* .swiper-modified img {
         height: 200px !important;
-        /* width: auto;
-        margin-left: -30px; */
-    }
+    } */
 }
 @media screen and (max-width: 668px) {
     .main-container {
         max-width: 476px;
         margin: 0 auto;
     }
-    .swiper-modified img {
+    /* .swiper-modified img {
         height: 200px !important;
-        /* width: auto;
-        margin-left: -30px; */
-    }
+    } */
 }
 @media screen and (max-width: 576px) {
     .main-container {
         max-width: 90%;
         margin: 0 auto;
     }
-    .swiper-modified img {
+    /* .swiper-modified img {
         height: 200px !important;
-        /* width: auto;
-        margin-left: -30px; */
-    }
+    } */
 }
 
 .bg-gradient-1 {
@@ -196,6 +216,11 @@ body {
 
 .bg-gradient-14 {
     background: radial-gradient(82.99% 199.53% at 108.66% 25.41%, #492E99 0.01%, #460D73 100%, #340B55 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.bg-gradient-15 {
+    /* background: radial-gradient(#00D1FF, #2E7EDC); */
+    background: #2467b3;
 }
 
 .img-transform {
@@ -315,6 +340,31 @@ body {
     z-index: -1;
 }
 
+.bg-icon-5 {
+    position: absolute;
+    width: 190.09px;
+    height: 87.11px;
+    left: 100%;
+    /* top: 161px; */
+    transform: translate(-150.09px, -80px);
+    /* background: url('../assets/icons/small-meteor.svg');
+    background-size: cover; */
+    /* filter: brightness(170%) contrast(50%); */
+}
+
+.bg-icon-6 {
+    position: absolute;
+    width: 190.09px;
+    height: 87.11px;
+    left: 0;
+    /* top: 161px; */
+    transform: translate(-90.09px, 0);
+    /* background: url('../assets/icons/small-meteor.svg');
+    background-size: cover; */
+    /* filter: brightness(170%) contrast(50%); */
+    z-index: -1;
+}
+
 .bg-vector-left {
     position: absolute;
     left: 0;
@@ -378,8 +428,8 @@ body {
     transition: all 2s;
 }
 
-.swiper-modified img {
-    height: 300px !important;
-    /* width: auto;
-    margin-left: -30px; */
+.swiper-modified > div {
+    height: 500px !important;
+    transform: scale(1.1) !important;
+    opacity: 1 !important;
 }
