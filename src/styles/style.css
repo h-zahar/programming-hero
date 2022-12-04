@@ -220,7 +220,15 @@ body {
 
 .bg-gradient-15 {
     /* background: radial-gradient(#00D1FF, #2E7EDC); */
-    background: #2467b3;
+    background: linear-gradient(90deg, #0073ff, #2E7EDC);
+}
+.bg-gradient-16 {
+    /* background: radial-gradient(#00D1FF, #2E7EDC); */
+    background: linear-gradient(90deg, #20050B, #521316);
+}
+.bg-gradient-17 {
+    /* background: radial-gradient(#00D1FF, #2E7EDC); */
+    background: linear-gradient(90deg, #0A160A, #111747);
 }
 
 .img-transform {
@@ -429,7 +437,7 @@ body {
 }
 
 .swiper-modified > div {
-    height: 500px !important;
+    height: 450px !important;
     transform: scale(1.1) !important;
     opacity: 1 !important;
 }
