@@ -120,10 +120,10 @@
     <div class="filter-4"></div>
     <div class="bg-icon-3"><img src="./assets/icons/small-meteor.svg" /></div>
 
-    <div data-scroll data-scroll-speed="3" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-20 mb-10">
-      <div class="grid md:grid-cols-2 grid-cols-1 gap-x-10 md:gap-y-0 gap-y-5">
-        <div class="grid md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-5 md:gap-y-0">
-          <div>
+    <div data-scroll data-scroll-speed="1" class="xl:mx-40 md:mx-28 sm:mx-16 mx-5 mt-20 mb-10">
+      <div data-scroll data-scroll-speed="1" class="grid md:grid-cols-2 grid-cols-1 gap-x-10 md:gap-y-0 gap-y-5">
+        <div data-scroll data-scroll-speed="2" class="grid md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-5 md:gap-y-0">
+          <div data-scroll data-scroll-speed="-3">
             <div class="p-10 bg-gradient-1 flex justify-center rounded-lg mt-24 mb-5">
               <div class="flex flex-col items-center">
                 <div>
@@ -150,7 +150,7 @@
           </div>
 
 
-          <div>
+          <div data-scroll data-scroll-speed="3">
             <div class="p-10 bg-gradient-2 flex justify-center rounded-lg mb-5">
               <div class="flex flex-col items-center">
                 <div class="bg-gradient-4 p-7 rounded-lg">
@@ -178,7 +178,7 @@
           </div>
         </div>
 
-        <div class="flex items-center">
+        <div data-scroll data-scroll-speed="2" class="flex items-center">
           <div>
             <div class="flex bg-lower">
             <div class="">
@@ -741,7 +741,7 @@
     window.onload = function () {
       const scroll = new LocomotiveScroll({
         el: document.querySelector("[data-scroll-container]"),
-        smooth: true,
+        smooth: true
       });
     };
     // const scroll = document.querySelector("[data-scroll-container]") ? new LocomotiveScroll({
